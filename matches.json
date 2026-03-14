@@ -32,7 +32,7 @@
         }
       ]
     },
-     {
+    {
       "league": "نهائي كأس العالم 2026",
       "league_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/2026_FIFA_World_Cup_logo.svg/512px-2026_FIFA_World_Cup_logo.svg.png",
       "teamA": "الأرجنتين",
@@ -56,43 +56,6 @@
             {"url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"},
             {"url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"}
           ]
-        },
-        {
-          "channel": "SSC 1",
-          "commentator": "فهد العتيبي",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        }
-      ]
-    },
-     {
-      "league": "نهائي كأس العالم 2026",
-      "league_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/2026_FIFA_World_Cup_logo.svg/512px-2026_FIFA_World_Cup_logo.svg.png",
-      "teamA": "الأرجنتين",
-      "logoA": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Argentina_national_football_team_crest.svg/512px-Argentina_national_football_team_crest.svg.png",
-      "teamB": "فرنسا",
-      "logoB": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/France_national_football_team_crest.svg/512px-France_national_football_team_crest.svg.png",
-      "status": "live",
-      "score": "3 - 3",
-      "minute": "118'",
-      "half": "إضافي 2",
-      "redCardsA": 1,
-      "redCardsB": 0,
-      "penalties": "4 - 2",
-      "broadcasts": [
-        {
-          "channel": "beIN 1",
-          "commentator": "عصام الشوالي",
-          "servers": [
-            {"url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"},
-            {"url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"},
-            {"url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"},
-            {"url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"}
-          ]
-        },
-        {
-          "channel": "SSC 1",
-          "commentator": "فهد العتيبي",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
         }
       ]
     },
@@ -114,5 +77,5 @@
         }
       ]
     }
-  ],
+  ]
 }
