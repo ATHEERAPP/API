@@ -1,0 +1,13 @@
+{
+  "current_vip_code": "ABC123",
+  "custom_ad": {
+    "is_active": true,
+    "image_url": "https://raw.githubusercontent.com/lemsid/atheer-api/main/ad_banner.png",
+    "click_url": "https://t.me/AtheerApp"
+  },
+  "app_update": {
+    "latest_version": "1.0.0", 
+    "update_message": "يتوفر تحديث جديد!",
+    "update_url": "https://t.me/Atheer_1xbet"
+  }
+}
