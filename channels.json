@@ -1,0 +1,58 @@
+{
+  "channels": [
+    {
+      "name": "الجزيرة الإخبارية",
+      "logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/07/Al_Jazeera_logo.svg/512px-Al_Jazeera_logo.svg.png",
+      "category": "أخبار",
+      "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8"
+    },
+    {
+      "name": "العربية",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Al_Arabiya_logo.svg/512px-Al_Arabiya_logo.svg.png",
+      "category": "أخبار",
+      "url": "https://live.alarabiya.net/alarabiya-pub/alarabiya/master.m3u8"
+    },
+    {
+      "name": "سكاي نيوز عربية",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Sky_News_Arabia_logo.svg/512px-Sky_News_Arabia_logo.svg.png",
+      "category": "أخبار",
+      "url": "https://skynewsarabia.akamaized.net/hls/live/2050854/skynewsarabia/master.m3u8"
+    },
+    {
+      "name": "أبوظبي الرياضية 1",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Abu_Dhabi_Sports.svg/512px-Abu_Dhabi_Sports.svg.png",
+      "category": "رياضة",
+      "url": "https://admdn2.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8"
+    },
+    {
+      "name": "أبوظبي الرياضية 2",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Abu_Dhabi_Sports.svg/512px-Abu_Dhabi_Sports.svg.png",
+      "category": "رياضة",
+      "url": "https://admdn2.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8"
+    },
+    {
+      "name": "قناة الكأس 1",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Al_Kass_Sports_Channels_logo.svg/512px-Al_Kass_Sports_Channels_logo.svg.png",
+      "category": "رياضة",
+      "url": "https://live.alkass.net/alkass1/playlist.m3u8"
+    },
+    {
+      "name": "الرياضية السعودية (KSA Sports 1)",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/KSA_Sports_logo.svg/512px-KSA_Sports_logo.svg.png",
+      "category": "رياضة",
+      "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/saudi_sports_1/smil:saudi_sports_1.smil/playlist.m3u8"
+    },
+    {
+      "name": "تلفزيون قطر",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Qatar_TV_logo.svg/512px-Qatar_TV_logo.svg.png",
+      "category": "عائلة",
+      "url": "https://shls-qtv-ak.qtv.qa/qtv-live/qtv1-web/chunklist.m3u8"
+    },
+    {
+      "name": "قناة اقرأ",
+      "logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/8/87/Iqraa_TV_logo.png/512px-Iqraa_TV_logo.png",
+      "category": "إسلامي",
+      "url": "https://stream.iqraa.com/iqraaar/index.m3u8"
+    }
+  ]
+}
