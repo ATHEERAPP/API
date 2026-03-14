@@ -1,0 +1,79 @@
+{
+   "vip_today": [
+    {
+      "type": "accumulator",
+      "matches": [
+        {
+          "match": "ريال مدريد vs برشلونة",
+          "team1_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/150px-Real_Madrid_CF.svg.png",
+          "team2_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/150px-FC_Barcelona_%28crest%29.svg.png",
+          "prediction": "فوز ريال مدريد (1)",
+          "odd": "1.85",
+          "match_status": "pending"
+        }
+      ],
+      "total_odd": "1.85",
+      "code": "VIP-99X",
+      "status": "pending"
+    },
+    {
+      "type": "single",
+      "matches": [
+        {
+          "match": "مانشستر سيتي vs أرسنال",
+          "team1_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/150px-Manchester_City_FC_badge.svg.png",
+          "team2_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/150px-Arsenal_FC.svg.png",
+          "prediction": "كلا الفريقين يسجل (BTTS)",
+          "odd": "1.65",
+          "match_status": "pending"
+        }
+      ],
+      "total_odd": "1.65",
+      "code": "CITY-ARS",
+      "status": "pending"
+    },
+    {
+      "type": "accumulator",
+      "matches": [
+        {
+          "match": "بايرن ميونخ vs دورتموند",
+          "team1_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/150px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
+          "team2_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/150px-Borussia_Dortmund_logo.svg.png",
+          "prediction": "أكثر من 2.5 هدف",
+          "odd": "1.50",
+          "match_status": "pending"
+        },
+        {
+          "match": "ليفربول vs تشيلسي",
+          "team1_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/150px-Liverpool_FC.svg.png",
+          "team2_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/150px-Chelsea_FC.svg.png",
+          "prediction": "فوز ليفربول (1)",
+          "odd": "1.90",
+          "match_status": "pending"
+        }
+      ],
+      "total_odd": "2.85",
+      "code": "MEGA-MIX",
+      "status": "pending"
+    }
+  ],
+
+  "vip_previous": [
+    {
+      "type": "single",
+      "matches": [
+         {
+          "match": "يوفنتوس vs ميلان",
+          "team1_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg/150px-Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg.png",
+          "team2_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/150px-Logo_of_AC_Milan.svg.png",
+          "prediction": "أقل من 3.5 هدف",
+          "odd": "1.40",
+          "match_status": "won"
+         }
+      ],
+      "total_odd": "1.40",
+      "code": "OLD-88Z",
+      "status": "won"
+    }
+  ]
+}
