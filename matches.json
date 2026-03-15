@@ -1,6 +1,31 @@
 {
   "matches": [
     {
+      "date": "2026-03-14",
+      "league": "دوري أبطال أوروبا",
+      "league_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/UEFA_Champions_League_logo_2014.svg/512px-UEFA_Champions_League_logo_2014.svg.png",
+      "teamA": "ليفربول",
+      "logoA": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/512px-Liverpool_FC.svg.png",
+      "teamB": "ريال مدريد",
+      "logoB": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/512px-Real_Madrid_CF.svg.png",
+      "status": "finished",
+      "score": "1 - 2",
+      "broadcasts": []
+    },
+    {
+      "date": "2026-03-14",
+      "league": "الدوري الإنجليزي الممتاز",
+      "league_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Premier_League_Logo.svg/512px-Premier_League_Logo.svg.png",
+      "teamA": "مانشستر سيتي",
+      "logoA": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/512px-Manchester_City_FC_badge.svg.png",
+      "teamB": "أرسنال",
+      "logoB": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/512px-Arsenal_FC.svg.png",
+      "status": "finished",
+      "score": "2 - 0",
+      "broadcasts": []
+    },
+    {
+      "date": "2026-03-15",
       "league": "نهائي كأس العالم 2026",
       "league_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/2026_FIFA_World_Cup_logo.svg/512px-2026_FIFA_World_Cup_logo.svg.png",
       "teamA": "الأرجنتين",
@@ -11,154 +36,30 @@
       "score": "3 - 3",
       "minute": "118'",
       "half": "إضافي 2",
-      "redCardsA": 1,
-      "redCardsB": 0,
-      "penalties": "4 - 2",
       "broadcasts": [
         {
           "channel": "beIN 1",
           "commentator": "عصام الشوالي",
           "servers": [
-            {"url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"},
-            {"url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"},
-            {"url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"},
             {"url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"}
           ]
-        },
-        {
-          "channel": "SSC 1",
-          "commentator": "فهد العتيبي",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
         }
       ]
     },
     {
-      "league": "الدوري الإسباني",
-      "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/512px-LaLiga_logo_2023.svg.png",
-      "teamA": "ريال مدريد",
-      "logoA": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/512px-Real_Madrid_CF.svg.png",
-      "teamB": "برشلونة",
-      "logoB": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/512px-FC_Barcelona_%28crest%29.svg.png",
-      "status": "upcoming",
-      "time": "21:00",
-      "half": "UPCOMING",
-      "broadcasts": [
-        {
-          "channel": "beIN Sports 1",
-          "commentator": "حفيظ دراجي",
-          "url": "https://example.com/stream3"
-        }
-      ]
-    },
-    {
-      "league": "الدوري الإنجليزي الممتاز",
-      "league_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Premier_League_Logo.svg/512px-Premier_League_Logo.svg.png",
-      "teamA": "مانشستر سيتي",
-      "logoA": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/512px-Manchester_City_FC_badge.svg.png",
-      "teamB": "أرسنال",
-      "logoB": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/512px-Arsenal_FC.svg.png",
-      "status": "upcoming",
-      "time": "18:30",
-      "half": "UPCOMING",
-      "broadcasts": [
-        {
-          "channel": "beIN Sports 2",
-          "commentator": "خليل البلوشي",
-          "url": "https://example.com/stream4"
-        }
-      ]
-    },
-    {
+      "date": "2026-03-15",
       "league": "دوري الرابطة المحترفة الأولى (الجزائر)",
       "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_de_la_Ligue_1_Alg%C3%A9rienne.png/220px-Logo_de_la_Ligue_1_Alg%C3%A9rienne.png",
       "teamA": "مولودية الجزائر",
       "logoA": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Logo_MCA_Alger.png/220px-Logo_de_la_Ligue_1_Alg%C3%A9rienne.png",
       "teamB": "شبيبة القبائل",
       "logoB": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Logo_JS_Kabylie.png/220px-Logo_de_la_Ligue_1_Alg%C3%A9rienne.png",
-      "status": "upcoming",
-      "time": "17:00",
-      "half": "UPCOMING",
-      "broadcasts": [
-        {
-          "channel": "الجزائرية الثالثة",
-          "commentator": "محمد جمال",
-          "url": "https://example.com/stream5"
-        }
-      ]
+      "status": "finished",
+      "score": "1 - 0",
+      "broadcasts": []
     },
     {
-      "league": "الدوري الإيطالي",
-      "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Serie_A_Logo_2022.svg/512px-Serie_A_Logo_2022.svg.png",
-      "teamA": "ميلان",
-      "logoA": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/AC_Milan_logo.svg/512px-AC_Milan_logo.svg.png",
-      "teamB": "إنتر ميلان",
-      "logoB": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Inter_Milan_2021_Crest.svg/512px-Inter_Milan_2021_Crest.svg.png",
-      "status": "upcoming",
-      "time": "20:45",
-      "half": "UPCOMING",
-      "broadcasts": [
-        {
-          "channel": "AD Sports Premium 1",
-          "commentator": "فارس عوض",
-          "url": "https://example.com/stream6"
-        }
-      ]
-    },
-    {
-      "league": "الدوري الألماني",
-      "league_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Bundesliga_logo_%282017%29.svg/512px-Bundesliga_logo_%282017%29.svg.png",
-      "teamA": "بايرن ميونخ",
-      "logoA": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/512px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
-      "teamB": "بوروسيا دورتموند",
-      "logoB": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/512px-Borussia_Dortmund_logo.svg.png",
-      "status": "upcoming",
-      "time": "15:30",
-      "half": "UPCOMING",
-      "broadcasts": [
-        {
-          "channel": "beIN Sports 3",
-          "commentator": "علي محمد علي",
-          "url": "https://example.com/stream7"
-        }
-      ]
-    },
-    {
-      "league": "دوري أبطال أوروبا",
-      "league_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/UEFA_Champions_League_logo_2014.svg/512px-UEFA_Champions_League_logo_2014.svg.png",
-      "teamA": "ليفربول",
-      "logoA": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/512px-Liverpool_FC.svg.png",
-      "teamB": "ريال مدريد",
-      "logoB": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/512px-Real_Madrid_CF.svg.png",
-      "status": "upcoming",
-      "time": "21:00",
-      "half": "UPCOMING",
-      "broadcasts": [
-        {
-          "channel": "beIN Sports 1",
-          "commentator": "عصام الشوالي",
-          "url": "https://example.com/stream8"
-        }
-      ]
-    },
-    {
-      "league": "الدوري الفرنسي",
-      "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ligue_1_logo_2024.svg/512px-Ligue_1_logo_2024.svg.png",
-      "teamA": "باريس سان جيرمان",
-      "logoA": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/512px-Paris_Saint-Germain_F.C..svg.png",
-      "teamB": "أولمبيك مارسيليا",
-      "logoB": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Olympique_de_Marseille_logo.svg/512px-Olympique_de_Marseille_logo.svg.png",
-      "status": "upcoming",
-      "time": "20:45",
-      "half": "UPCOMING",
-      "broadcasts": [
-        {
-          "channel": "beIN Sports 4",
-          "commentator": "جواد بدة",
-          "url": "https://example.com/stream9"
-        }
-      ]
-    },
-    {
+      "date": "2026-03-16",
       "league": "الدوري السعودي للمحترفين",
       "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Saudi_Pro_League_logo.png/220px-Saudi_Pro_League_logo.png",
       "teamA": "الهلال",
@@ -167,48 +68,29 @@
       "logoB": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Al-Nassr_FC_logo.svg/512px-Al-Nassr_FC_logo.svg.png",
       "status": "upcoming",
       "time": "19:00",
-      "half": "UPCOMING",
       "broadcasts": [
         {
           "channel": "SSC Sports 1",
           "commentator": "فهد العتيبي",
-          "url": "https://example.com/stream10"
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
         }
       ]
     },
     {
-      "league": "دوري الرابطة المحترفة الأولى (الجزائر)",
-      "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_de_la_Ligue_1_Alg%C3%A9rienne.png/220px-Logo_de_la_Ligue_1_Alg%C3%A9rienne.png",
-      "teamA": "شباب بلوزداد",
-      "logoA": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Logo_CR_Belouizdad.png/220px-Logo_de_la_Ligue_1_Alg%C3%A9rienne.png",
-      "teamB": "وفاق سطيف",
-      "logoB": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Logo_ES_S%C3%A9tif.png/220px-Logo_de_la_Ligue_1_Alg%C3%A9rienne.png",
+      "date": "2026-03-16",
+      "league": "الدوري الإسباني",
+      "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/512px-LaLiga_logo_2023.svg.png",
+      "teamA": "برشلونة",
+      "logoA": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/512px-FC_Barcelona_%28crest%29.svg.png",
+      "teamB": "أتلتيكو مدريد",
+      "logoB": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/512px-Atletico_Madrid_2017_logo.svg.png",
       "status": "upcoming",
-      "time": "18:00",
-      "half": "UPCOMING",
+      "time": "21:30",
       "broadcasts": [
         {
-          "channel": "الجزائرية الأرضية",
-          "commentator": "عادل خلو",
-          "url": "https://example.com/stream11"
-        }
-      ]
-    },
-    {
-      "league": "دوري أبطال أفريقيا",
-      "league_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/CAF_Champions_League_logo.svg/512px-CAF_Champions_League_logo.svg.png",
-      "teamA": "الأهلي (مصر)",
-      "logoA": "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Al_Ahly_SC_crest.svg/512px-Al_Ahly_SC_crest.svg.png",
-      "teamB": "شبيبة القبائل",
-      "logoB": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Logo_JS_Kabylie.png/220px-Logo_de_la_Ligue_1_Alg%C3%A9rienne.png",
-      "status": "upcoming",
-      "time": "20:00",
-      "half": "UPCOMING",
-      "broadcasts": [
-        {
-          "channel": "beIN Sports 5",
-          "commentator": "نوفل باشي",
-          "url": "https://example.com/stream12"
+          "channel": "beIN Sports 3",
+          "commentator": "حفيظ دراجي",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
         }
       ]
     }
