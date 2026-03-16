@@ -1,6 +1,24 @@
 {
-    "last_update": "2026-03-16 08:50:41",
-    "matches": [],
+    "last_update": "2026-03-16 08:53:56",
+    "matches": [
+        {
+            "date": "2026-03-16",
+            "league": "❌ تم رفض الطلب",
+            "teamA": "سبب المشكلة:",
+            "teamB": "This API key and secret do not have access to our data enabled",
+            "logoA": "https://cdn-icons-png.flaticon.com/512/1008/1008928.png",
+            "logoB": "https://cdn-icons-png.flaticon.com/512/1008/1008928.png",
+            "score": "Error",
+            "time": "00:00",
+            "status": "finished",
+            "broadcasts": [
+                {
+                    "channel": "نظام أثير",
+                    "commentator": "تحليل الخطأ"
+                }
+            ]
+        }
+    ],
     "custom_ad": {
         "is_active": false
     }
