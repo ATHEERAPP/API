@@ -19,24 +19,7 @@
                 }
             ]
         },
-        {
-            "date": "2026-03-16",
-            "league": "Premier League",
-            "league_logo": "https://crests.football-data.org/PL.png",
-            "teamA": "Brentford",
-            "teamB": "Wolverhampton",
-            "logoA": "https://crests.football-data.org/402.png",
-            "logoB": "https://crests.football-data.org/76.png",
-            "score": "vs",
-            "time": "2026-03-16T20:00:00Z",
-            "status": "timed",
-            "broadcasts": [
-                {
-                    "channel": "أثير الرياضي",
-                    "commentator": "تحديث تلقائي"
-                }
-            ]
-        },
+        
         {
             "date": "2026-03-16",
             "league": "Championship",
