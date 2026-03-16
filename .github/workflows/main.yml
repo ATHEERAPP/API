@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4 # تحديث للنسخة 4 لحل تحذير Node.js
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5 # تحديث للنسخة 5 لحل تحذير Node.js
         with:
-          python-version: '3.10' # 👈 تم تصحيح الشرطة هنا
+          python-version: '3.10' # 👈 تم تصحيح الخطأ هنا (شرطة عادية)
 
       - name: Install dependencies
         run: pip install requests
