@@ -1,63 +1,9 @@
 {
-    "last_update": "2026-03-16 07:07:48",
-    "matches": [
-        {
-            "date": "2026-03-16",
-            "league": "Serie A",
-            "t1": "Cremonese",
-            "t2": "Fiorentina",
-            "logoA": "https://crests.football-data.org/457.png",
-            "logoB": "https://crests.football-data.org/99.png",
-            "sc": "vs",
-            "time": "19:45",
-            "status": "timed"
-        },
-        {
-            "date": "2026-03-16",
-            "league": "Championship",
-            "t1": "Portsmouth",
-            "t2": "Derby County",
-            "logoA": "https://crests.football-data.org/325.png",
-            "logoB": "https://crests.football-data.org/342.png",
-            "sc": "vs",
-            "time": "20:00",
-            "status": "timed"
-        },
-        {
-            "date": "2026-03-16",
-            "league": "Premier League",
-            "t1": "Brentford",
-            "t2": "Wolverhampton",
-            "logoA": "https://crests.football-data.org/402.png",
-            "logoB": "https://crests.football-data.org/76.png",
-            "sc": "vs",
-            "time": "20:00",
-            "status": "timed"
-        },
-        {
-            "date": "2026-03-16",
-            "league": "Primera Division",
-            "t1": "Rayo Vallecano",
-            "t2": "Levante",
-            "logoA": "https://crests.football-data.org/87.png",
-            "logoB": "https://crests.football-data.org/88.png",
-            "sc": "vs",
-            "time": "20:00",
-            "status": "timed"
-        },
-        {
-            "date": "2026-03-16",
-            "league": "Campeonato Brasileiro Série A",
-            "t1": "Chapecoense",
-            "t2": "Grêmio",
-            "logoA": "https://crests.football-data.org/1772_large.png",
-            "logoB": "https://crests.football-data.org/1767.png",
-            "sc": "vs",
-            "time": "23:00",
-            "status": "timed"
-        }
-    ],
+    "last_update": "2026-03-16 07:15:01",
+    "matches": [],
     "custom_ad": {
-        "is_active": false
+        "is_active": false,
+        "image_url": "",
+        "click_url": ""
     }
 }
