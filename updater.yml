@@ -2,14 +2,12 @@ name: Update Matches from Kooora
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # يحدث كل 5 دقائق (يمكنك تغييرها لـ 1 لزيادة السرعة)
-  workflow_dispatch: # للتشغيل اليدوي
+    - cron: '*/5 * * * *' # تحديث كل 5 دقائق
+  workflow_dispatch: # للتشغيل اليدوي بضغطة زر
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # حل مشكلة التحذير التي ظهرت لك
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
