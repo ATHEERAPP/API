@@ -1,26 +1,23 @@
 {
-    "last_update": "2026-03-17 00:15:00",
+    "last_update": "2026-03-17 00:25:00",
     "ads": [
         {
             "date": "2026-03-15",
             "is_active": true,
             "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
-            "click_url": "https://google.com",
-            "text": "تحليلات مباريات الأمس"
+            "click_url": "https://google.com"
         },
         {
             "date": "2026-03-16",
             "is_active": true,
             "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
-            "click_url": "https://google.com",
-            "text": "بث مباشر لجميع دوريات اليوم"
+            "click_url": "https://google.com"
         },
         {
             "date": "2026-03-17",
             "is_active": true,
             "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
-            "click_url": "https://google.com",
-            "text": "انتظروا قمة دوري الأبطال غداً"
+            "click_url": "https://google.com"
         }
     ],
     "matches": [
@@ -55,52 +52,6 @@
                     "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TV6_Alg%C3%A9rie_logo.svg/512px-TV6_Alg%C3%A9rie_logo.svg.png",
                     "commentator": "محمد جمال",
                     "url": "https://example.com/live1"
-                },
-                {
-                    "channel": "الجزائرية 6 (SD)",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TV6_Alg%C3%A9rie_logo.svg/512px-TV6_Alg%C3%A9rie_logo.svg.png",
-                    "commentator": "علي حفصي",
-                    "url": "https://example.com/live2"
-                }
-            ]
-        },
-        {
-            "date": "2026-03-16",
-            "league": "الدوري الإسباني",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/512px-LaLiga_logo_2023.svg.png",
-            "teamA": "ريال مدريد",
-            "teamB": "برشلونة",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/56/Real_Madrid_CF.svg/1024px-Real_Madrid_CF.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/47/FC_Barcelona_%28logo%29.svg/1024px-FC_Barcelona_%28logo%29.svg.png",
-            "score": "vs",
-            "time": "22:00",
-            "status": "timed",
-            "broadcasts": [
-                {
-                    "channel": "beIN Sports 1",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
-                    "commentator": "حفيظ دراجي",
-                    "url": "https://example.com/liga"
-                }
-            ]
-        },
-        {
-            "date": "2026-03-16",
-            "league": "الدوري السعودي",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a2/Saudi_Professional_League_Logo.svg/512px-Saudi_Professional_League_Logo.svg.png",
-            "teamA": "الهلال",
-            "teamB": "النصر",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/03/Al-Hilal_Logo.svg/1024px-Al-Hilal_Logo.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a4/Al_Nassr_FC_logo.svg/1024px-Al_Nassr_FC_logo.svg.png",
-            "score": "vs",
-            "time": "19:00",
-            "status": "timed",
-            "broadcasts": [
-                {
-                    "channel": "SSC Sports",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/45/SSC_Logo.svg/512px-SSC_Logo.svg.png",
-                    "commentator": "فهد العتيبي",
-                    "url": "https://example.com/ssc"
                 }
             ]
         },
