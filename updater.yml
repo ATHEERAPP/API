@@ -1,10 +1,12 @@
-name: Atheer Match Updater
+name: Atheer Live Updates
 
 on:
-  workflow_dispatch: # تشغيل يدوي للทดريب
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 permissions:
-  contents: write # تصريح كتابة مباشر داخل الملف
+  contents: write
 
 jobs:
   build:
@@ -19,7 +21,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests beautifulsoup4 lxml
 
       - name: Run Scraper
         run: python update_matches.py
@@ -29,5 +31,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add matches.json
-          git commit -m "Update matches from Kooora" || exit 0
+          git commit -m "Auto update" || exit 0
           git push
