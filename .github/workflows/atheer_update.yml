@@ -21,10 +21,13 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml
+        run: |
+          pip install requests beautifulsoup4
+          # حذفنا lxml لأنها تسبب مشاكل أحياناً في التثبيت
 
       - name: Run Scraper
         run: python update_matches.py
+        continue-on-error: false # نريد معرفة الخطأ إذا حدث
 
       - name: Commit and Push
         run: |
