@@ -2,6 +2,34 @@
     "last_update": "2026-03-17 00:30:00",
     "ads": [
         {
+            "date": "2026-03-15",
+            "is_active": true,
+            "type": "top_banner",
+            "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
+            "click_url": "https://google.com"
+        },
+        {
+            "date": "2026-03-15",
+            "is_active": true,
+            "type": "inline",
+            "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
+            "click_url": "https://google.com"
+        },
+        {
+            "date": "2026-03-16",
+            "is_active": true,
+            "type": "top_banner",
+            "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
+            "click_url": "https://google.com"
+        },
+        {
+            "date": "2026-03-16",
+            "is_active": true,
+            "type": "inline",
+            "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
+            "click_url": "https://google.com"
+        },
+        {
             "date": "2026-03-17",
             "is_active": true,
             "type": "top_banner",
@@ -16,17 +44,16 @@
             "click_url": "https://google.com"
         },
         {
-            "date": "2026-03-16",
+            "date": "2026-03-18",
             "is_active": true,
             "type": "top_banner",
             "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
             "click_url": "https://google.com"
-        }
-        ,
+        },
         {
-            "date": "2026-03-15",
+            "date": "2026-03-18",
             "is_active": true,
-            "type": "top_banner",
+            "type": "inline",
             "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
             "click_url": "https://google.com"
         }
