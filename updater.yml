@@ -6,13 +6,11 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # 👈 هذا السطر هو الحل لمنع فشل الرفع (Push)
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # 👈 حل مشكلة التحذير
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -34,5 +32,5 @@ jobs:
           git config --global user.name "Atheer Bot"
           git config --global user.email "bot@atheer.com"
           git add matches.json
-          git commit -m "Update matches from Kooora" || echo "No changes to commit"
+          git commit -m "Update matches from Kooora" || echo "No changes"
           git push
