@@ -14,33 +14,37 @@ def get_live_matches_pro():
             matches_list = []
             
             for m in data.get('matches', []):
-                # تحديد قناة افتراضية بناءً على الدوري ليعطي لمسة واقعية
-                league_name = m['competition']['name']
-                channel = "beIN Sports 1" if "Premier League" in league_name else "beIN Sports 3"
+                # تصحيح مسار النتيجة (fullTime بدلاً من full_time)
+                score_data = m.get('score', {}).get('fullTime', {})
+                home_score = score_data.get('home')
+                away_score = score_data.get('away')
+                
+                # تنسيق النتيجة لـ Flutter
+                display_score = f"{home_score} - {away_score}" if home_score is not None else "vs"
                 
                 matches_list.append({
                     "date": today_str, 
-                    "league": league_name,
+                    "league": m['competition']['name'],
                     "league_logo": m['competition']['emblem'],
                     "teamA": m['homeTeam']['shortName'] or m['homeTeam']['name'],
                     "teamB": m['awayTeam']['shortName'] or m['awayTeam']['name'],
                     "logoA": m['homeTeam']['crest'], 
                     "logoB": m['awayTeam']['crest'],
-                    "score": f"{m['score']['full_time']['home'] if m['score']['full_time']['home'] is not None else ''} - {m['score']['full_time']['away'] if m['score']['full_time']['away'] is not None else ''}".replace(" - ","vs") if m['score']['full_time']['home'] is None else f"{m['score']['full_time']['home']} - {m['score']['full_time']['away']}",
+                    "score": display_score,
                     "time": m['utcDate'][11:16],
                     "status": "live" if m['status'] in ["IN_PLAY", "PAUSED"] else ("finished" if m['status'] == "FINISHED" else "timed"),
-                    # 🎙️ إضافة بيانات المعلق والقناة لكي تظهر في شريط البطاقة السفلي
                     "broadcasts": [
                         {
-                            "channel": channel,
+                            "channel": "beIN Sports",
                             "commentator": "جاري التحديث...",
-                            "stream_url": "" # هنا يمكنك وضع رابط بث لاحقاً
+                            "stream_url": "" 
                         }
                     ]
                 })
             return matches_list
         return []
-    except:
+    except Exception as e:
+        print(f"Error: {e}")
         return []
 
 if __name__ == "__main__":
@@ -52,4 +56,4 @@ if __name__ == "__main__":
     }
     with open('matches.json', 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
-    print("✅ تم تحديث الأسماء وإضافة بيانات المعلقين الافتراضية!")
+    print(f"✅ تم بنجاح! تم العثور على {len(matches)} مباراة.")
