@@ -6,7 +6,7 @@
         "click_url": "https://google.com"
     },
     "matches": [
-        /* ================= مباريات الأمس  ================= */
+
         {
             "date": "2026-03-15",
             "league": "الدوري الإنجليزي",
@@ -21,8 +21,8 @@
             "broadcasts": []
         },
 
-        /* ================= مباريات اليوم  ================= */
-        {
+
+                {
             "date": "2026-03-16",
             "league": "الرابطة الجزائرية المحترفة",
             "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Algerian_Ligue_Professionnelle_1_logo.svg/512px-Algerian_Ligue_Professionnelle_1_logo.svg.png",
@@ -90,8 +90,8 @@
             ]
         },
 
-        /* ================= مباريات الغد  ================= */
-        {
+
+                {
             "date": "2026-03-17",
             "league": "دوري أبطال أوروبا",
             "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/b/bf/UEFA_Champions_League_logo_2012.svg/512px-UEFA_Champions_League_logo_2012.svg.png",
