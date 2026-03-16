@@ -1,28 +1,30 @@
 name: Match Auto Updater
 
-# ⏱️ متى سيعمل الروبوت؟
 on:
   schedule:
-    - cron: '*/15 * * * *' # سيعمل تلقائياً كل 15 دقيقة
-  workflow_dispatch:      # هذا الخيار يسمح لك بتشغيله يدوياً متى شئت (للتجربة)
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions: # 👈 إضافة تصريح صريح للروبوت بالكتابة
+  contents: write
 
 jobs:
   build:
-    runs-on: ubuntu-latest # سيستخدم كمبيوتر بنظام لينكس لتنفيذ المهمة
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3 # سحب الكود الخاص بك
+        uses: actions/checkout@v4 # تحديث للنسخة 4
 
       - name: Set up Python
-        uses: actions/setup-python@v4 # تجهيز لغة بايثون
+        uses: actions/setup-python@v5 # تحديث للنسخة 5
         with:
-          python_version: '3.x'
+          python_version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests # تثبيت المكتبات اللازمة
+        run: pip install requests
 
       - name: Run updater script
-        run: python update_matches.py # تشغيل عقل الروبوت الذي برمجناه
+        run: python update_matches.py
 
       - name: Commit and push changes
         run: |
