@@ -1,9 +1,27 @@
 {
-    "last_update": "2026-03-16 20:00:00",
+    "last_update": "2026-03-16 23:50:00",
     "custom_ad": {
-        "is_active": false
+        "is_active": true,
+        "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
+        "click_url": "https://google.com"
     },
     "matches": [
+        /* ================= مباريات الأمس (15 مارس) ================= */
+        {
+            "date": "2026-03-15",
+            "league": "الدوري الإنجليزي",
+            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/f/f2/Premier_League_Logo.svg/512px-Premier_League_Logo.svg.png",
+            "teamA": "أرسنال",
+            "teamB": "تشيلسي",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/53/Arsenal_FC.svg/1024px-Arsenal_FC.svg.png",
+            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/c/cc/Chelsea_FC.svg/1024px-Chelsea_FC.svg.png",
+            "score": "3 - 1",
+            "time": "انتهت",
+            "status": "finished",
+            "broadcasts": []
+        },
+
+        /* ================= مباريات اليوم (16 مارس) ================= */
         {
             "date": "2026-03-16",
             "league": "الرابطة الجزائرية المحترفة",
@@ -12,21 +30,22 @@
             "teamB": "اتحاد العاصمة",
             "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/8/87/MC_Alger_logo.svg/1024px-MC_Alger_logo.svg.png",
             "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/9/9d/USM_Alger_logo.svg/1024px-USM_Alger_logo.svg.png",
-            "score": "vs",
-            "time": "21:00",
-            "status": "timed",
+            "score": "2 - 1",
+            "time": "مباشر",
+            "status": "live",
+            "minute": "75",
             "broadcasts": [
                 {
                     "channel": "الجزائرية 6 (HD)",
                     "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TV6_Alg%C3%A9rie_logo.svg/512px-TV6_Alg%C3%A9rie_logo.svg.png",
                     "commentator": "محمد جمال",
-                    "url": "رابط_القناة_الأولى"
+                    "url": "https://example.com/live1"
                 },
                 {
                     "channel": "الجزائرية 6 (SD)",
                     "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TV6_Alg%C3%A9rie_logo.svg/512px-TV6_Alg%C3%A9rie_logo.svg.png",
                     "commentator": "علي حفصي",
-                    "url": "رابط_القناة_الثانية"
+                    "url": "https://example.com/live2"
                 }
             ]
         },
@@ -46,29 +65,7 @@
                     "channel": "beIN Sports 1",
                     "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
                     "commentator": "حفيظ دراجي",
-                    "url": "رابط_البث_هنا"
-                }
-            ]
-        },
-        {
-            "date": "2026-03-16",
-            "league": "الدوري الإنجليزي",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/f/f2/Premier_League_Logo.svg/512px-Premier_League_Logo.svg.png",
-            "teamA": "ليفربول",
-            "teamB": "مانشستر سيتي",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/0c/Liverpool_FC.svg/1024px-Liverpool_FC.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/e/eb/Manchester_City_FC_badge.svg/1024px-Manchester_City_FC_badge.svg.png",
-            "score": "1 - 1",
-            "time": "مباشر",
-            "status": "live",
-            "minute": "65",
-            "half": "2T",
-            "broadcasts": [
-                {
-                    "channel": "beIN Sports 2",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
-                    "commentator": "خليل البلوشي",
-                    "url": "رابط_البث_هنا"
+                    "url": "https://example.com/liga"
                 }
             ]
         },
@@ -88,27 +85,29 @@
                     "channel": "SSC Sports",
                     "channel_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/45/SSC_Logo.svg/512px-SSC_Logo.svg.png",
                     "commentator": "فهد العتيبي",
-                    "url": "رابط_البث_هنا"
+                    "url": "https://example.com/ssc"
                 }
             ]
         },
+
+        /* ================= مباريات الغد (17 مارس) ================= */
         {
-            "date": "2026-03-16",
-            "league": "الدوري المصري",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/5a/Egyptian_Premier_League_Logo_2021.svg/512px-Egyptian_Premier_League_Logo_2021.svg.png",
-            "teamA": "الأهلي",
-            "teamB": "الزمالك",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/af/Al_Ahly_SC_logo.svg/1024px-Al_Ahly_SC_logo.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/04/ZamalekSC.png/1024px-ZamalekSC.png",
+            "date": "2026-03-17",
+            "league": "دوري أبطال أوروبا",
+            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/b/bf/UEFA_Champions_League_logo_2012.svg/512px-UEFA_Champions_League_logo_2012.svg.png",
+            "teamA": "بايرن ميونخ",
+            "teamB": "باريس سان جيرمان",
+            "logoA": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/1024px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
+            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1024px-Paris_Saint-Germain_F.C..svg.png",
             "score": "vs",
-            "time": "18:00",
+            "time": "21:00",
             "status": "timed",
             "broadcasts": [
                 {
-                    "channel": "OnTime Sports",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/5e/OnTime_Sports_logo.svg/512px-OnTime_Sports_logo.svg.png",
-                    "commentator": "مدحت شلبي",
-                    "url": "رابط_البث_هنا"
+                    "channel": "beIN Sports Premium",
+                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
+                    "commentator": "خليل البلوشي",
+                    "url": "https://example.com/ucl"
                 }
             ]
         }
