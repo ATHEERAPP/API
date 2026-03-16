@@ -5,29 +5,31 @@
     },
     "matches": [
         {
-    "date": "2026-03-16",
-    "league": "الرابطة الجزائرية المحترفة",
-    "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Algerian_Ligue_Professionnelle_1_logo.svg/512px-Algerian_Ligue_Professionnelle_1_logo.svg.png",
-    "teamA": "مولودية الجزائر",
-    "teamB": "اتحاد العاصمة",
-    "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/8/87/MC_Alger_logo.svg/1024px-MC_Alger_logo.svg.png",
-    "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/9/9d/USM_Alger_logo.svg/1024px-USM_Alger_logo.svg.png",
-    "score": "vs",
-    "time": "21:00",
-    "status": "timed",
-    "broadcasts": [
-        {
-            "channel": "الجزائرية السادسة (HD)",
-            "commentator": "محمد جمال",
-            "url": "رابط_القناة_الأولى"
+            "date": "2026-03-16",
+            "league": "الرابطة الجزائرية المحترفة",
+            "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Algerian_Ligue_Professionnelle_1_logo.svg/512px-Algerian_Ligue_Professionnelle_1_logo.svg.png",
+            "teamA": "مولودية الجزائر",
+            "teamB": "اتحاد العاصمة",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/8/87/MC_Alger_logo.svg/1024px-MC_Alger_logo.svg.png",
+            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/9/9d/USM_Alger_logo.svg/1024px-USM_Alger_logo.svg.png",
+            "score": "vs",
+            "time": "21:00",
+            "status": "timed",
+            "broadcasts": [
+                {
+                    "channel": "الجزائرية 6 (HD)",
+                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TV6_Alg%C3%A9rie_logo.svg/512px-TV6_Alg%C3%A9rie_logo.svg.png",
+                    "commentator": "محمد جمال",
+                    "url": "رابط_القناة_الأولى"
+                },
+                {
+                    "channel": "الجزائرية 6 (SD)",
+                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TV6_Alg%C3%A9rie_logo.svg/512px-TV6_Alg%C3%A9rie_logo.svg.png",
+                    "commentator": "علي حفصي",
+                    "url": "رابط_القناة_الثانية"
+                }
+            ]
         },
-        {
-            "channel": "الجزائرية السادسة (SD)",
-            "commentator": "علي حفصي",
-            "url": "رابط_القناة_الثانية"
-        }
-    ]
-},
         {
             "date": "2026-03-16",
             "league": "الدوري الإسباني",
@@ -42,6 +44,7 @@
             "broadcasts": [
                 {
                     "channel": "beIN Sports 1",
+                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
                     "commentator": "حفيظ دراجي",
                     "url": "رابط_البث_هنا"
                 }
@@ -53,7 +56,7 @@
             "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/f/f2/Premier_League_Logo.svg/512px-Premier_League_Logo.svg.png",
             "teamA": "ليفربول",
             "teamB": "مانشستر سيتي",
-            "logoA": "https://images.ctfassets.net/eyc25wndlima/72Ghcq5Hr6A882waghjPLR/52d16ab536d34e4f805b3343c54f3da9/Main_logo_Emblem_Primary-06.png?fm=webp&fit=pad&f=center&w=144&h=144&q=100",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/0c/Liverpool_FC.svg/1024px-Liverpool_FC.svg.png",
             "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/e/eb/Manchester_City_FC_badge.svg/1024px-Manchester_City_FC_badge.svg.png",
             "score": "1 - 1",
             "time": "مباشر",
@@ -63,6 +66,7 @@
             "broadcasts": [
                 {
                     "channel": "beIN Sports 2",
+                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
                     "commentator": "خليل البلوشي",
                     "url": "رابط_البث_هنا"
                 }
@@ -82,6 +86,7 @@
             "broadcasts": [
                 {
                     "channel": "SSC Sports",
+                    "channel_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/45/SSC_Logo.svg/512px-SSC_Logo.svg.png",
                     "commentator": "فهد العتيبي",
                     "url": "رابط_البث_هنا"
                 }
@@ -101,6 +106,7 @@
             "broadcasts": [
                 {
                     "channel": "OnTime Sports",
+                    "channel_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/5e/OnTime_Sports_logo.svg/512px-OnTime_Sports_logo.svg.png",
                     "commentator": "مدحت شلبي",
                     "url": "رابط_البث_هنا"
                 }
