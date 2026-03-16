@@ -2,49 +2,55 @@ import requests
 import json
 from datetime import datetime
 
-def get_matches_from_new_api():
-    # الحصول على تاريخ اليوم بتنسيق YYYY-MM-DD
-    today = datetime.now().strftime("%Y-%m-%d")
+def get_live_matches_pro():
+    # الرابط الرسمي لجلب مباريات اليوم من الدوريات الكبرى
+    url = "https://api.football-data.org/v4/matches"
     
-    # الرابط الذي استخرجته مع جعل التاريخ تلقائياً
-    api_url = f"https://1tik.social/apimain/soccer/fixtures/date/{today}"
-    
+    # المفتاح الخاص بك الذي أرسلته
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Referer": "https://1tik.social/",
-        "Accept": "application/json"
+        'X-Auth-Token': 'b43963bf5cfa411c8934edd9d5fafa69'
     }
     
     try:
-        print(f"📡 جاري الاتصال بالمصدر: {api_url}")
-        response = requests.get(api_url, headers=headers, timeout=30)
+        print("📡 جاري الاتصال بـ Football-Data API...")
+        response = requests.get(url, headers=headers, timeout=20)
         
-        if response.status_code in [200, 304]:
+        if response.status_code == 200:
             data = response.json()
+            matches_list = []
             
-            # معالجة البيانات: سنفترض أن الـ API يعيد قائمة تحت اسم 'response' أو 'data'
-            # سنقوم بحفظ البيانات بالكامل كما هي لتراها في ملف matches.json
-            return data
+            for m in data.get('matches', []):
+                # استخراج البيانات المهمة لتطبيق "أثير"
+                matches_list.append({
+                    "league": m['competition']['name'],
+                    "teamA": m['homeTeam']['shortName'] or m['homeTeam']['name'],
+                    "teamB": m['awayTeam']['shortName'] or m['awayTeam']['name'],
+                    "score": f"{m['score']['fullTime']['home']} - {m['score']['fullTime']['away']}" if m['score']['fullTime']['home'] is not None else "vs",
+                    "time": m['utcDate'][11:16], # توقيت المباراة
+                    "status": m['status'] # هل بدأت أم انتهت؟
+                })
+            
+            return matches_list
         else:
-            print(f"⚠️ فشل الطلب، كود الحالة: {response.status_code}")
-            return {"error": "API failed", "code": response.status_code}
+            print(f"⚠️ فشل الطلب: {response.status_code}")
+            return []
             
     except Exception as e:
         print(f"❌ خطأ تقني: {e}")
-        return {"error": str(e)}
+        return []
 
 if __name__ == "__main__":
-    print("🏟️ تحديث بيانات تطبيق أثير...")
-    result = get_matches_from_new_api()
+    matches = get_live_matches_pro()
     
     output = {
         "status": "success",
         "last_update": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "source": "1tik.social",
-        "raw_data": result
+        "source": "Football-Data.org (Official)",
+        "matches_count": len(matches),
+        "matches": matches
     }
     
     with open('matches.json', 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
     
-    print("✅ تم التحديث! افتح ملف matches.json الآن.")
+    print(f"✅ تم بنجاح! وجدنا {len(matches)} مباراة حقيقية.")
