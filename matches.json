@@ -1,98 +1,50 @@
 {
-    "last_update": "2026-03-16 18:34:12",
+    "last_update": "2026-03-16 20:00:00",
+    "custom_ad": {
+        "is_active": false,
+        "image_url": "https://link-to-ad.jpg",
+        "click_url": "https://google.com"
+    },
     "matches": [
         {
             "date": "2026-03-16",
-            "league": "Serie A",
-            "league_logo": "https://crests.football-data.org/c111.png",
-            "teamA": "Cremonese",
-            "teamB": "Fiorentina",
-            "logoA": "https://crests.football-data.org/457.png",
-            "logoB": "https://crests.football-data.org/99.png",
+            "league": "دوري أبطال أوروبا",
+            "league_logo": "https://cdn-icons-png.flaticon.com/512/825/825583.png",
+            "teamA": "ريال مدريد",
+            "teamB": "مانشستر سيتي",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png",
+            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
             "score": "vs",
-            "time": "2026-03-16T19:45:00Z",
+            "time": "20:00",
             "status": "timed",
             "broadcasts": [
                 {
-                    "channel": "أثير الرياضي",
-                    "commentator": "تحديث تلقائي"
+                    "channel": "beIN Sports 1",
+                    "commentator": "عصام الشوالي",
+                    "url": "ضع_رابط_البث_هنا"
                 }
             ]
         },
         {
             "date": "2026-03-16",
-            "league": "Primera Division",
-            "league_logo": "https://crests.football-data.org/laliga.png",
-            "teamA": "Rayo Vallecano",
-            "teamB": "Levante",
-            "logoA": "https://crests.football-data.org/87.png",
-            "logoB": "https://crests.football-data.org/88.png",
-            "score": "vs",
-            "time": "2026-03-16T20:00:00Z",
-            "status": "timed",
+            "league": "الرابطة الجزائرية المحترفة",
+            "league_logo": "https://cdn-icons-png.flaticon.com/512/197/197374.png",
+            "teamA": "مولودية الجزائر",
+            "teamB": "شباب بلوزداد",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/8/87/MC_Alger_logo.svg/1200px-MC_Alger_logo.svg.png",
+            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/6/69/CR_Belouizdad_logo.svg/1200px-CR_Belouizdad_logo.svg.png",
+            "score": "2 - 1",
+            "time": "مباشر",
+            "status": "live",
             "broadcasts": [
                 {
-                    "channel": "أثير الرياضي",
-                    "commentator": "تحديث تلقائي"
+                    "channel": "الشبابية",
+                    "commentator": "معلق جزائري",
+                    "url": "ضع_رابط_البث_هنا"
                 }
-            ]
-        },
-        {
-            "date": "2026-03-16",
-            "league": "Premier League",
-            "league_logo": "https://crests.football-data.org/PL.png",
-            "teamA": "Brentford",
-            "teamB": "Wolverhampton",
-            "logoA": "https://crests.football-data.org/402.png",
-            "logoB": "https://crests.football-data.org/76.png",
-            "score": "vs",
-            "time": "2026-03-16T20:00:00Z",
-            "status": "timed",
-            "broadcasts": [
-                {
-                    "channel": "أثير الرياضي",
-                    "commentator": "تحديث تلقائي"
-                }
-            ]
-        },
-        {
-            "date": "2026-03-16",
-            "league": "Championship",
-            "league_logo": "https://crests.football-data.org/ELC.png",
-            "teamA": "Portsmouth",
-            "teamB": "Derby County",
-            "logoA": "https://crests.football-data.org/325.png",
-            "logoB": "https://crests.football-data.org/342.png",
-            "score": "vs",
-            "time": "2026-03-16T20:00:00Z",
-            "status": "timed",
-            "broadcasts": [
-                {
-                    "channel": "أثير الرياضي",
-                    "commentator": "تحديث تلقائي"
-                }
-            ]
-        },
-        {
-            "date": "2026-03-16",
-            "league": "Campeonato Brasileiro Série A",
-            "league_logo": "https://crests.football-data.org/bsa.png",
-            "teamA": "Chapecoense",
-            "teamB": "Grêmio",
-            "logoA": "https://crests.football-data.org/1772_large.png",
-            "logoB": "https://crests.football-data.org/1767.png",
-            "score": "vs",
-            "time": "2026-03-16T23:00:00Z",
-            "status": "timed",
-            "broadcasts": [
-                {
-                    "channel": "أثير الرياضي",
-                    "commentator": "تحديث تلقائي"
-                }
-            ]
+            ],
+            "minute": "75",
+            "half": "2T"
         }
-    ],
-    "custom_ad": {
-        "is_active": false
-    }
+    ]
 }
