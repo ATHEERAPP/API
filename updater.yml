@@ -1,16 +1,15 @@
-name: Match Auto Updater
+name: Update Matches from Kooora
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: '*/5 * * * *' # يحدث كل 5 دقائق (يمكنك تغييرها لـ 1 لزيادة السرعة)
+  workflow_dispatch: # للتشغيل اليدوي
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # حل مشكلة التحذير التي ظهرت لك
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -21,15 +20,16 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          pip install requests beautifulsoup4 lxml
 
-      - name: Run updater script
+      - name: Run Scraper
         run: python update_matches.py
 
-      - name: Commit and push changes
+      - name: Commit and Push
         run: |
-          git config --global user.name 'Atheer-Robot'
-          git config --global user.email 'robot@atheer.com'
+          git config --global user.name "Atheer Bot"
+          git config --global user.email "bot@atheer.com"
           git add matches.json
-          git commit -m "🤖 تحديث تلقائي للنتائج" || echo "No changes to commit"
+          git commit -m "Update matches from Kooora" || exit 0
           git push
