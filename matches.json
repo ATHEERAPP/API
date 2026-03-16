@@ -1,9 +1,48 @@
 {
     "status": "success",
-    "last_update": "2026-03-16 06:18:50",
-    "source": "1tik.social",
-    "raw_data": {
-        "error": "API failed",
-        "code": 401
-    }
+    "last_update": "2026-03-16 06:55:36",
+    "source": "Football-Data.org (Official)",
+    "matches_count": 5,
+    "matches": [
+        {
+            "league": "Serie A",
+            "teamA": "Cremonese",
+            "teamB": "Fiorentina",
+            "score": "vs",
+            "time": "19:45",
+            "status": "TIMED"
+        },
+        {
+            "league": "Championship",
+            "teamA": "Portsmouth",
+            "teamB": "Derby County",
+            "score": "vs",
+            "time": "20:00",
+            "status": "TIMED"
+        },
+        {
+            "league": "Premier League",
+            "teamA": "Brentford",
+            "teamB": "Wolverhampton",
+            "score": "vs",
+            "time": "20:00",
+            "status": "TIMED"
+        },
+        {
+            "league": "Primera Division",
+            "teamA": "Rayo Vallecano",
+            "teamB": "Levante",
+            "score": "vs",
+            "time": "20:00",
+            "status": "TIMED"
+        },
+        {
+            "league": "Campeonato Brasileiro Série A",
+            "teamA": "Chapecoense",
+            "teamB": "Grêmio",
+            "score": "vs",
+            "time": "23:00",
+            "status": "TIMED"
+        }
+    ]
 }
