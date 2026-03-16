@@ -1,9 +1,7 @@
-name: Update Matches from Kooora
+name: Emergency Update
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
-  workflow_dispatch:
+  workflow_dispatch: # للتشغيل اليدوي فقط الآن حتى نصلح الخطأ
 
 permissions:
   contents: write
@@ -20,17 +18,16 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
-        run: |
-          pip install requests beautifulsoup4 lxml
+      - name: Install Dependencies
+        run: pip install requests
 
-      - name: Run Scraper
+      - name: Run Robot
         run: python update_matches.py
 
-      - name: Commit and Push
+      - name: Push Changes
         run: |
-          git config --global user.name "Atheer Bot"
+          git config --global user.name "AtheerBot"
           git config --global user.email "bot@atheer.com"
           git add matches.json
-          git commit -m "Update matches from Kooora" || echo "No changes"
+          git commit -m "Update matches" || exit 0
           git push
