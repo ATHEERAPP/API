@@ -1,66 +1,50 @@
 import requests
 import json
 from datetime import datetime
-import re
 
-def scrape_kooora_your_link():
-    # الرابط الذي حددته أنت يا مدير
-    url = "https://www.kooora.com/كرة-القدم/مباريات-اليوم"
+def get_matches_from_new_api():
+    # الحصول على تاريخ اليوم بتنسيق YYYY-MM-DD
+    today = datetime.now().strftime("%Y-%m-%d")
+    
+    # الرابط الذي استخرجته مع جعل التاريخ تلقائياً
+    api_url = f"https://1tik.social/apimain/soccer/fixtures/date/{today}"
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Referer": "https://www.kooora.com/",
-        "Accept-Language": "ar,en-US;q=0.9,en;q=0.8"
+        "Referer": "https://1tik.social/",
+        "Accept": "application/json"
     }
     
     try:
-        # طلب الصفحة مباشرة
-        response = requests.get(url, headers=headers, timeout=30)
-        response.encoding = 'utf-8'
-        html_content = response.text
-
-        # استخراج الدوريات (Championships) من داخل الكود المصدري للرابط
-        leagues = {}
-        leagues_data = re.findall(r"championship\((\d+),.*?'(.*?)'", html_content)
-        for l_id, l_name in leagues_data:
-            leagues[l_id] = l_name
-
-        # استخراج المباريات (Matches) من داخل الكود المصدري للرابط
-        matches_data = re.findall(r"match\((\d+),'.*?','(.*?)','(.*?)','(.*?)','(.*?)',(\d+)", html_content)
+        print(f"📡 جاري الاتصال بالمصدر: {api_url}")
+        response = requests.get(api_url, headers=headers, timeout=30)
         
-        results = []
-        for m in matches_data:
-            m_id, t1, t2, score, m_time, l_id = m
+        if response.status_code in [200, 304]:
+            data = response.json()
             
-            # تنظيف النصوص العربية المشفره
-            t1_clean = t1.replace('\\', '').strip()
-            t2_clean = t2.replace('\\', '').strip()
+            # معالجة البيانات: سنفترض أن الـ API يعيد قائمة تحت اسم 'response' أو 'data'
+            # سنقوم بحفظ البيانات بالكامل كما هي لتراها في ملف matches.json
+            return data
+        else:
+            print(f"⚠️ فشل الطلب، كود الحالة: {response.status_code}")
+            return {"error": "API failed", "code": response.status_code}
             
-            results.append({
-                "league": leagues.get(l_id, "بطولة"),
-                "teamA": t1_clean,
-                "teamB": t2_clean,
-                "score": score.strip() if score.strip() else "vs",
-                "time": m_time.strip()
-            })
-
-        return results
     except Exception as e:
-        print(f"❌ Error: {e}")
-        return []
+        print(f"❌ خطأ تقني: {e}")
+        return {"error": str(e)}
 
 if __name__ == "__main__":
-    print(f"🚀 جاري سحب البيانات من الرابط الذي حددته...")
-    data = scrape_kooora_your_link()
+    print("🏟️ تحديث بيانات تطبيق أثير...")
+    result = get_matches_from_new_api()
     
     output = {
         "status": "success",
         "last_update": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "matches_count": len(data),
-        "matches": data
+        "source": "1tik.social",
+        "raw_data": result
     }
     
     with open('matches.json', 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
     
-    print(f"✅ تم سحب {len(data)} مباراة بنجاح من رابطك!")
+    print("✅ تم التحديث! افتح ملف matches.json الآن.")
