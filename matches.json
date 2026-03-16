@@ -1,20 +1,88 @@
 {
-    "last_update": "2026-03-16 15:41:59",
+    "last_update": "2026-03-16 17:14:44",
     "matches": [
         {
             "date": "2026-03-16",
-            "league": "❌ تم رفض الطلب",
-            "teamA": "سبب المشكلة:",
-            "teamB": "This API key and secret do not have access to our data enabled",
-            "logoA": "https://cdn-icons-png.flaticon.com/512/1008/1008928.png",
-            "logoB": "https://cdn-icons-png.flaticon.com/512/1008/1008928.png",
-            "score": "Error",
-            "time": "00:00",
-            "status": "finished",
+            "league": "Serie A",
+            "teamA": "Cremonese",
+            "teamB": "Fiorentina",
+            "logoA": "https://crests.football-data.org/457.png",
+            "logoB": "https://crests.football-data.org/99.png",
+            "score": "vs",
+            "time": "20:45",
+            "status": "timed",
             "broadcasts": [
                 {
-                    "channel": "نظام أثير",
-                    "commentator": "تحليل الخطأ"
+                    "channel": "أثير الرياضي",
+                    "commentator": "تحديث تلقائي"
+                }
+            ]
+        },
+        {
+            "date": "2026-03-16",
+            "league": "Championship",
+            "teamA": "Portsmouth",
+            "teamB": "Derby County",
+            "logoA": "https://crests.football-data.org/325.png",
+            "logoB": "https://crests.football-data.org/342.png",
+            "score": "vs",
+            "time": "21:00",
+            "status": "timed",
+            "broadcasts": [
+                {
+                    "channel": "أثير الرياضي",
+                    "commentator": "تحديث تلقائي"
+                }
+            ]
+        },
+        {
+            "date": "2026-03-16",
+            "league": "Premier League",
+            "teamA": "Brentford",
+            "teamB": "Wolverhampton",
+            "logoA": "https://crests.football-data.org/402.png",
+            "logoB": "https://crests.football-data.org/76.png",
+            "score": "vs",
+            "time": "21:00",
+            "status": "timed",
+            "broadcasts": [
+                {
+                    "channel": "أثير الرياضي",
+                    "commentator": "تحديث تلقائي"
+                }
+            ]
+        },
+        {
+            "date": "2026-03-16",
+            "league": "Primera Division",
+            "teamA": "Rayo Vallecano",
+            "teamB": "Levante",
+            "logoA": "https://crests.football-data.org/87.png",
+            "logoB": "https://crests.football-data.org/88.png",
+            "score": "vs",
+            "time": "21:00",
+            "status": "timed",
+            "broadcasts": [
+                {
+                    "channel": "أثير الرياضي",
+                    "commentator": "تحديث تلقائي"
+                }
+            ]
+        },
+        {
+            "date": "2026-03-16",
+            "league": "Campeonato Brasileiro Série A",
+            "teamA": "Chapecoense",
+            "teamB": "Grêmio",
+            "logoA": "https://crests.football-data.org/1772_large.png",
+            "logoB": "https://crests.football-data.org/1767.png",
+            "score": "vs",
+            "time": "00:00",
+            "status": "timed",
+            "broadcasts": [
+                {
+                    "channel": "أثير الرياضي",
+                    "commentator": "تحديث تلقائي"
                 }
             ]
         }
