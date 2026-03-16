@@ -2,12 +2,17 @@ name: Update Matches from Kooora
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # تحديث كل 5 دقائق
-  workflow_dispatch: # للتشغيل اليدوي بضغطة زر
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write  # 👈 هذا السطر هو الحل لمنع فشل الرفع (Push)
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # 👈 حل مشكلة التحذير
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -29,5 +34,5 @@ jobs:
           git config --global user.name "Atheer Bot"
           git config --global user.email "bot@atheer.com"
           git add matches.json
-          git commit -m "Update matches from Kooora" || exit 0
+          git commit -m "Update matches from Kooora" || echo "No changes to commit"
           git push
