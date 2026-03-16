@@ -1,91 +1,91 @@
 import requests
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 
-def get_atheer_genius_data():
-    API_KEY = "GYkTTE95YM1sCMsX"
-    API_SECRET = "cdB4MZniIbltsK9n43gJdnHCsa0eAXs"
+def get_football_data():
+    # 🔑 مفتاحك الشخصي من موقع football-data.org
+    API_KEY = "b43963bf5cfa411c8934edd9d5fafa69"
     
-    today_str = datetime.now().strftime("%Y-%m-%d")
-    matches_list = []
-
-    # 📡 نطلب جدول مباريات اليوم
-    url = f"https://livescore-api.com/api-client/fixtures/matches.json?key={API_KEY}&secret={API_SECRET}&date={today_str}"
+    # 📡 رابط جلب مباريات اليوم
+    url = "https://api.football-data.org/v4/matches"
+    
+    headers = {
+        'X-Auth-Token': API_KEY
+    }
 
     try:
-        response = requests.get(url, timeout=20)
-        res_json = response.json()
+        print("📡 جاري الاتصال بسيرفرات football-data.org...")
+        response = requests.get(url, headers=headers, timeout=15)
         
-        # 1️⃣ هل الطلب نجح؟
-        if res_json.get('success'):
-            fixtures = res_json.get('data', {}).get('fixtures', [])
-            
-            # 2️⃣ ماذا لو نجح الطلب ولكن لا توجد مباريات اليوم؟ (صباح الإثنين مثلاً)
-            if not fixtures:
-                matches_list.append({
-                    "date": today_str,
-                    "league": "تنبيه من السيرفر",
-                    "teamA": "لا توجد مباريات",
-                    "teamB": "مجدولة لهذا اليوم",
-                    "logoA": "https://cdn-icons-png.flaticon.com/512/1008/1008928.png", # أيقونة تنبيه
-                    "logoB": "https://cdn-icons-png.flaticon.com/512/1008/1008928.png",
-                    "score": "0 - 0",
-                    "time": "00:00",
-                    "status": "finished",
-                    "broadcasts": [{"channel": "نظام أثير", "commentator": "الذكاء الاصطناعي"}]
-                })
-            
-            # 3️⃣ جلب المباريات الحقيقية (إن وجدت)
-            for f in fixtures:
-                matches_list.append({
-                    "date": today_str,
-                    "league": f.get('competition', {}).get('name', 'بطولة'),
-                    "teamA": f.get('home_name', 'فريق 1'),
-                    "teamB": f.get('away_name', 'فريق 2'),
-                    "logoA": f"https://livescore-api.com/api-client/teams/logo.json?id={f.get('home_id')}&key={API_KEY}&secret={API_SECRET}",
-                    "logoB": f"https://livescore-api.com/api-client/teams/logo.json?id={f.get('away_id')}&key={API_KEY}&secret={API_SECRET}",
-                    "score": "vs",
-                    "time": str(f.get('time', '00:00'))[:5],
-                    "status": "timed",
-                    "broadcasts": [{"channel": "beIN Sports", "commentator": "تحديث ذكي"}]
-                })
-        
-        # 4️⃣ هنا السحر: إذا رفض الموقع إعطاءنا بيانات، سنرسل الخطأ لهاتفك!
-        else:
-            error_message = res_json.get('error', 'خطأ غير معروف من السيرفر')
-            matches_list.append({
-                "date": today_str,
-                "league": "❌ تم رفض الطلب",
-                "teamA": "سبب المشكلة:",
-                "teamB": str(error_message), # سيظهر لك الخطأ الانجليزي هنا
-                "logoA": "https://cdn-icons-png.flaticon.com/512/1008/1008928.png",
-                "logoB": "https://cdn-icons-png.flaticon.com/512/1008/1008928.png",
-                "score": "Error",
-                "time": "00:00",
-                "status": "finished",
-                "broadcasts": [{"channel": "نظام أثير", "commentator": "تحليل الخطأ"}]
-            })
+        if response.status_code == 200:
+            data = response.json()
+            matches_list = []
+            today_str = datetime.now().strftime("%Y-%m-%d")
 
-        return matches_list
+            matches = data.get('matches', [])
+            
+            for m in matches:
+                competition = m.get('competition', {}).get('name', 'بطولة')
+
+                home_team = m.get('homeTeam', {}).get('shortName', m.get('homeTeam', {}).get('name', 'فريق 1'))
+                away_team = m.get('awayTeam', {}).get('shortName', m.get('awayTeam', {}).get('name', 'فريق 2'))
+                
+                # جلب الشعارات بجودة عالية (Crests)
+                home_crest = m.get('homeTeam', {}).get('crest', 'https://cdn-icons-png.flaticon.com/512/1864/1864470.png')
+                away_crest = m.get('awayTeam', {}).get('crest', 'https://cdn-icons-png.flaticon.com/512/1864/1864470.png')
+
+                status = m.get('status')
+                score_home = m.get('score', {}).get('fullTime', {}).get('home')
+                score_away = m.get('score', {}).get('fullTime', {}).get('away')
+                
+                score_home = score_home if score_home is not None else 0
+                score_away = score_away if score_away is not None else 0
+
+                # ⏱️ تحليل حالة المباراة
+                if status in ['IN_PLAY', 'PAUSED']:
+                    match_status = "live"
+                    score = f"{score_home} - {score_away}"
+                    time_str = "مباشر"
+                elif status == 'FINISHED':
+                    match_status = "finished"
+                    score = f"{score_home} - {score_away}"
+                    time_str = "انتهت"
+                else:
+                    match_status = "timed"
+                    score = "vs"
+                    # تحويل التوقيت إلى توقيت الجزائر (UTC+1)
+                    utc_date_str = m.get('utcDate', '')
+                    if utc_date_str:
+                        utc_time = datetime.strptime(utc_date_str, "%Y-%m-%dT%H:%M:%SZ")
+                        local_time = utc_time + timedelta(hours=1) 
+                        time_str = local_time.strftime("%H:%M")
+                    else:
+                        time_str = "00:00"
+
+                matches_list.append({
+                    "date": today_str,
+                    "league": competition,
+                    "teamA": home_team,
+                    "teamB": away_team,
+                    "logoA": home_crest,
+                    "logoB": away_crest,
+                    "score": score,
+                    "time": time_str,
+                    "status": match_status,
+                    "broadcasts": [{"channel": "أثير الرياضي", "commentator": "تحديث تلقائي"}]
+                })
+                
+            return matches_list
+        else:
+            print(f"❌ خطأ من السيرفر. كود الخطأ: {response.status_code}")
+            return []
 
     except Exception as e:
-        # 5️⃣ إذا انهار الكود تماماً، سيبعث لك رسالة انهيار
-        matches_list.append({
-            "date": today_str,
-            "league": "🚨 خطأ برمجي",
-            "teamA": "حدث خطأ",
-            "teamB": str(e)[:20],
-            "logoA": "https://cdn-icons-png.flaticon.com/512/1008/1008928.png",
-            "logoB": "https://cdn-icons-png.flaticon.com/512/1008/1008928.png",
-            "score": "Err",
-            "time": "00:00",
-            "status": "finished",
-            "broadcasts": [{"channel": "نظام أثير", "commentator": "إصلاح الطوارئ"}]
-        })
-        return matches_list
+        print(f"🚨 خطأ برمجي: {e}")
+        return []
 
 if __name__ == "__main__":
-    final_data = get_atheer_genius_data()
+    final_data = get_football_data()
     output = {
         "last_update": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "matches": final_data,
@@ -93,4 +93,4 @@ if __name__ == "__main__":
     }
     with open('matches.json', 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
-    print("✅ تم تنفيذ خطة كشف الأخطاء بنجاح!")
+    print(f"✅ تم سحب البيانات بنجاح! عدد المباريات: {len(final_data)}")
