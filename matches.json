@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-03-16 07:26:37",
+    "last_update": "2026-03-16 07:47:50",
     "matches": [
         {
             "date": "2026-03-16",
@@ -22,7 +22,7 @@
         },
         {
             "date": "2026-03-16",
-            "league": "دوري الدرجة الأولى الإنجليزي",
+            "league": "Championship",
             "league_logo": "https://crests.football-data.org/ELC.png",
             "teamA": "Portsmouth",
             "teamB": "Derby County",
@@ -79,11 +79,11 @@
         },
         {
             "date": "2026-03-16",
-            "league": "الدوري البرازيلي",
+            "league": "Campeonato Brasileiro Série A",
             "league_logo": "https://crests.football-data.org/bsa.png",
             "teamA": "Chapecoense",
             "teamB": "Grêmio",
-            "logoA": "https://crests.football-data.org/1772_large.png",
+            "logoA": "https://crests.football-data.org/1772.png",
             "logoB": "https://crests.football-data.org/1767.png",
             "score": "vs",
             "time": "23:00",
