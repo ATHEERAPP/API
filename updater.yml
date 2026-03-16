@@ -1,10 +1,10 @@
-name: Emergency Update
+name: Atheer Match Updater
 
 on:
-  workflow_dispatch: # للتشغيل اليدوي فقط الآن حتى نصلح الخطأ
+  workflow_dispatch: # تشغيل يدوي للทดريب
 
 permissions:
-  contents: write
+  contents: write # تصريح كتابة مباشر داخل الملف
 
 jobs:
   build:
@@ -18,16 +18,16 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: pip install requests
 
-      - name: Run Robot
+      - name: Run Scraper
         run: python update_matches.py
 
-      - name: Push Changes
+      - name: Commit and Push
         run: |
-          git config --global user.name "AtheerBot"
-          git config --global user.email "bot@atheer.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add matches.json
-          git commit -m "Update matches" || exit 0
+          git commit -m "Update matches from Kooora" || exit 0
           git push
