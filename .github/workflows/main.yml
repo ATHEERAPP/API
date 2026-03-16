@@ -1,0 +1,33 @@
+name: Match Auto Updater
+
+# ⏱️ متى سيعمل الروبوت؟
+on:
+  schedule:
+    - cron: '*/15 * * * *' # سيعمل تلقائياً كل 15 دقيقة
+  workflow_dispatch:      # هذا الخيار يسمح لك بتشغيله يدوياً متى شئت (للتجربة)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # سيستخدم كمبيوتر بنظام لينكس لتنفيذ المهمة
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3 # سحب الكود الخاص بك
+
+      - name: Set up Python
+        uses: actions/setup-python@v4 # تجهيز لغة بايثون
+        with:
+          python_version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests # تثبيت المكتبات اللازمة
+
+      - name: Run updater script
+        run: python update_matches.py # تشغيل عقل الروبوت الذي برمجناه
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'Atheer-Robot'
+          git config --global user.email 'robot@atheer.com'
+          git add matches.json
+          git commit -m "🤖 تحديث تلقائي للنتائج" || echo "No changes to commit"
+          git push
