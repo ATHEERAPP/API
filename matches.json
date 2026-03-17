@@ -89,6 +89,12 @@
                     "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TV6_Alg%C3%A9rie_logo.svg/512px-TV6_Alg%C3%A9rie_logo.svg.png",
                     "commentator": "محمد جمال",
                     "url": "https://example.com/live1"
+                },
+                {
+                    "channel": "الجزائرية 6 (HD)",
+                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TV6_Alg%C3%A9rie_logo.svg/512px-TV6_Alg%C3%A9rie_logo.svg.png",
+                    "commentator": "محمد جمال",
+                    "url": "https://example.com/live1"
                 }
             ]
         },
