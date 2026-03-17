@@ -185,7 +185,7 @@
             "logoA": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/1024px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
             "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1024px-Paris_Saint-Germain_F.C..svg.png",
             "score": "vs",
-            "time": "21:00",
+            "time": "04:00",
             "status": "timed",
             "broadcasts": [
                 {
@@ -211,9 +211,8 @@
             "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/e/eb/Manchester_City_FC_badge.svg/1024px-Manchester_City_FC_badge.svg.png",
             "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/05/FC_Internazionale_Milano_2021.svg/1024px-FC_Internazionale_Milano_2021.svg.png",
             "score": "1 - 0",
-            "time": "مباشر",
-            "status": "live",
-            "minute": "45",
+            "time": "02:00",
+            "status": "timed",
             "broadcasts": [
                 {
                     "channel": "beIN Sports 2",
@@ -237,8 +236,8 @@
             "teamB": "مانشستر يونايتد",
             "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/0c/Liverpool_FC.svg/1024px-Liverpool_FC.svg.png",
             "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/7/7a/Manchester_United_FC_crest.svg/1024px-Manchester_United_FC_crest.svg.png",
-            "score": "vs",
-            "time": "18:30",
+            "score": "2 - 1",
+            "time": "00:30",
             "status": "timed",
             "broadcasts": [
                 {
@@ -258,7 +257,7 @@
             "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/41/Raja_Casablanca_logo.svg/1024px-Raja_Casablanca_logo.svg.png",
             "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/ad/Wydad_Athletic_Club_logo.svg/1024px-Wydad_Athletic_Club_logo.svg.png",
             "score": "vs",
-            "time": "01:50",
+            "time": "21:00",
             "status": "timed",
             "broadcasts": [
                 {
