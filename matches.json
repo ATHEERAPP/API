@@ -75,10 +75,10 @@
         {
             "date": "2026-03-16",
             "league": "الرابطة الجزائرية المحترفة",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Algerian_Ligue_Professionnelle_1_logo.svg/512px-Algerian_Ligue_Professionnelle_1_logo.svg.png",
+            "league_logo": "https://drive.google.com/file/d/1VZ7JBnyRJXf6Zc_skV-g60gOt8x2a0Ck/view?usp=drive_link",
             "teamA": "مولودية الجزائر",
             "teamB": "اتحاد العاصمة",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/8/87/MC_Alger_logo.svg/1024px-MC_Alger_logo.svg.png",
+            "logoA": "https://drive.google.com/file/d/16v-OGpDgfqj13hiWR3aUAu67ARur_2ZE/view?usp=drive_link",
             "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/9/9d/USM_Alger_logo.svg/1024px-USM_Alger_logo.svg.png",
             "score": "vs",
             "time": "19:00",
@@ -86,7 +86,7 @@
             "broadcasts": [
                 {
                     "channel": "الجزائرية 6 (HD)",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TV6_Alg%C3%A9rie_logo.svg/512px-TV6_Alg%C3%A9rie_logo.svg.png",
+                    "channel_logo": "https://drive.google.com/file/d/1VZ7JBnyRJXf6Zc_skV-g60gOt8x2a0Ck/view?usp=drive_link",
                     "commentator": "محمد جمال",
                     "url": "https://example.com/live1"
                 },
