@@ -247,9 +247,15 @@
             "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/c/c1/Atletico_Madrid_logo.svg/1024px-Atletico_Madrid_logo.svg.png",
             "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/1/13/Real_betis_logo.svg/1024px-Real_betis_logo.svg.png",
             "score": "vs",
-            "time": "20:00",
+            "time": "04:00",
             "status": "timed",
             "broadcasts": [
+                {
+                    "channel": "beIN Sports 3",
+                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
+                    "commentator": "حفيظ دراجي",
+                    "url": "https://example.com/live"
+                },
                 {
                     "channel": "beIN Sports 3",
                     "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
@@ -267,7 +273,7 @@
             "logoA": "https://raw.githubusercontent.com/ATHEERAPP/API/main/logos/england/burnley.png",
             "logoB": "https://raw.githubusercontent.com/ATHEERAPP/API/main/logos/england/burnley.png",
             "score": "vs",
-            "time": "17:30",
+            "time": "03:00",
             "status": "timed",
             "broadcasts": [
                 {
