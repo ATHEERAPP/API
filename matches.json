@@ -261,18 +261,18 @@
         {
             "date": "2026-03-18",
             "league": "الدوري الألماني",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/1/15/Bundesliga_logo.svg/512px-Bundesliga_logo.svg.png",
+            "league_logo": "https://raw.githubusercontent.com/ATHEERAPP/API/main/logos/england/burnley.png",
             "teamA": "بوروسيا دورتموند",
             "teamB": "باير ليفركوزن",
-            "logoA": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/1024px-Borussia_Dortmund_logo.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/f/f7/Bayer_Leverkusen_logo.svg/1024px-Bayer_Leverkusen_logo.svg.png",
+            "logoA": "https://raw.githubusercontent.com/ATHEERAPP/API/main/logos/england/burnley.png",
+            "logoB": "https://raw.githubusercontent.com/ATHEERAPP/API/main/logos/england/burnley.png",
             "score": "vs",
             "time": "17:30",
             "status": "timed",
             "broadcasts": [
                 {
                     "channel": "beIN Sports 5",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
+                    "channel_logo": "https://raw.githubusercontent.com/ATHEERAPP/API/main/logos/england/burnley.png",
                     "commentator": "علي محمد علي",
                     "url": "https://example.com/live"
                 }
