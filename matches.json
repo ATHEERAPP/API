@@ -1,288 +1,143 @@
 {
-    "last_update": "2026-03-17 00:30:00",
+    "last_update": "2026-03-18 00:30:00",
     "ads": [
-        {
-            "date": "2026-03-15",
-            "is_active": true,
-            "type": "top_banner",
-            "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
-            "click_url": "https://google.com"
-        },
-        {
-            "date": "2026-03-15",
-            "is_active": true,
-            "type": "inline",
-            "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
-            "click_url": "https://google.com"
-        },
-        {
-            "date": "2026-03-16",
-            "is_active": true,
-            "type": "top_banner",
-            "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
-            "click_url": "https://google.com"
-        },
-        {
-            "date": "2026-03-16",
-            "is_active": true,
-            "type": "inline",
-            "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg",
-            "click_url": "https://google.com"
-        },
-        {
-            "date": "2026-03-17",
-            "is_active": true,
-            "type": "top_banner",
-            "image_url": "https://cdn.dribbble.com/userupload/24064647/file/original-bde6a3a49628a414ba6d2dfdceecedd0.gif",
-            "click_url": "https://google.com"
-        },
-        {
-            "date": "2026-03-17",
-            "is_active": true,
-            "type": "inline",
-            "image_url": "https://img.pikbest.com/origin/10/13/22/18tpIkbEsTE3Y.jpg!sw800",
-            "click_url": "https://google.com"
-        },
-        {
-            "date": "2026-03-18",
-            "is_active": true,
-            "type": "top_banner",
-            "image_url": "https://img.pikbest.com/origin/10/13/22/18tpIkbEsTE3Y.jpg!sw800",
-            "click_url": "https://google.com"
-        },
-        {
-            "date": "2026-03-18",
-            "is_active": true,
-            "type": "inline",
-            "image_url": "https://cdn.dribbble.com/userupload/24064647/file/original-bde6a3a49628a414ba6d2dfdceecedd0.gif",
-            "click_url": "https://google.com"
-        }
+        {"date": "2026-03-18", "is_active": true, "type": "top_banner", "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg", "click_url": "https://google.com"},
+        {"date": "2026-03-18", "is_active": true, "type": "inline", "image_url": "https://img.pikbest.com/origin/10/13/22/18tpIkbEsTE3Y.jpg!sw800", "click_url": "https://google.com"},
+        {"date": "2026-03-18", "is_active": true, "type": "inline", "image_url": "https://cdn.dribbble.com/userupload/24064647/file/original-bde6a3a49628a414ba6d2dfdceecedd0.gif", "click_url": "https://google.com"},
+        {"date": "2026-03-18", "is_active": true, "type": "inline", "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg", "click_url": "https://google.com"},
+        {"date": "2026-03-18", "is_active": true, "type": "inline", "image_url": "https://img.pikbest.com/origin/10/13/22/18tpIkbEsTE3Y.jpg!sw800", "click_url": "https://google.com"},
+        {"date": "2026-03-18", "is_active": true, "type": "inline", "image_url": "https://cdn.dribbble.com/userupload/24064647/file/original-bde6a3a49628a414ba6d2dfdceecedd0.gif", "click_url": "https://google.com"},
+
+        {"date": "2026-03-19", "is_active": true, "type": "top_banner", "image_url": "https://cdn.dribbble.com/userupload/24064647/file/original-bde6a3a49628a414ba6d2dfdceecedd0.gif", "click_url": "https://google.com"},
+        {"date": "2026-03-19", "is_active": true, "type": "inline", "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg", "click_url": "https://google.com"},
+        {"date": "2026-03-19", "is_active": true, "type": "inline", "image_url": "https://img.pikbest.com/origin/10/13/22/18tpIkbEsTE3Y.jpg!sw800", "click_url": "https://google.com"},
+        {"date": "2026-03-19", "is_active": true, "type": "inline", "image_url": "https://cdn.dribbble.com/userupload/24064647/file/original-bde6a3a49628a414ba6d2dfdceecedd0.gif", "click_url": "https://google.com"},
+        {"date": "2026-03-19", "is_active": true, "type": "inline", "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg", "click_url": "https://google.com"},
+        {"date": "2026-03-19", "is_active": true, "type": "inline", "image_url": "https://img.pikbest.com/origin/10/13/22/18tpIkbEsTE3Y.jpg!sw800", "click_url": "https://google.com"},
+
+        {"date": "2026-03-20", "is_active": true, "type": "top_banner", "image_url": "https://img.pikbest.com/origin/10/13/22/18tpIkbEsTE3Y.jpg!sw800", "click_url": "https://google.com"},
+        {"date": "2026-03-20", "is_active": true, "type": "inline", "image_url": "https://cdn.dribbble.com/userupload/24064647/file/original-bde6a3a49628a414ba6d2dfdceecedd0.gif", "click_url": "https://google.com"},
+        {"date": "2026-03-20", "is_active": true, "type": "inline", "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg", "click_url": "https://google.com"},
+        {"date": "2026-03-20", "is_active": true, "type": "inline", "image_url": "https://img.pikbest.com/origin/10/13/22/18tpIkbEsTE3Y.jpg!sw800", "click_url": "https://google.com"},
+        {"date": "2026-03-20", "is_active": true, "type": "inline", "image_url": "https://cdn.dribbble.com/userupload/24064647/file/original-bde6a3a49628a414ba6d2dfdceecedd0.gif", "click_url": "https://google.com"},
+        {"date": "2026-03-20", "is_active": true, "type": "inline", "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e0322105151523.5f726a8027725.jpg", "click_url": "https://google.com"}
     ],
     "matches": [
         {
-            "date": "2026-03-15",
-            "league": "الدوري الإنجليزي",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/f/f2/Premier_League_Logo.svg/512px-Premier_League_Logo.svg.png",
-            "teamA": "أرسنال",
-            "teamB": "تشيلسي",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/53/Arsenal_FC.svg/1024px-Arsenal_FC.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/c/cc/Chelsea_FC.svg/1024px-Chelsea_FC.svg.png",
-            "score": "vs",
-            "time": "20:00",
-            "status": "finished",
-            "broadcasts": []
-        },
-        {
-            "date": "2026-03-16",
-            "league": "الرابطة الجزائرية المحترفة",
-            "league_logo": "https://drive.google.com/file/d/1VZ7JBnyRJXf6Zc_skV-g60gOt8x2a0Ck/view?usp=drive_link",
-            "teamA": "مولودية الجزائر",
-            "teamB": "اتحاد العاصمة",
-            "logoA": "https://drive.google.com/file/d/16v-OGpDgfqj13hiWR3aUAu67ARur_2ZE/view?usp=drive_link",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/9/9d/USM_Alger_logo.svg/1024px-USM_Alger_logo.svg.png",
-            "score": "vs",
-            "time": "19:00",
-            "status": "finished",
+            "date": "2026-03-18", "league": "كأس العالم", "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/ab/FIFA_World_Cup_logo.svg/512px-FIFA_World_Cup_logo.svg.png",
+            "teamA": "البرازيل", "teamB": "الأرجنتين",
+            "logoA": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/CBF_logo.svg/512px-CBF_logo.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a3/AFA_logo.svg/512px-AFA_logo.svg.png",
+            "score": "1-2", "time": "22:00", "status": "finished",
             "broadcasts": [
-                {
-                    "channel": "الجزائرية 6 (HD)",
-                    "channel_logo": "https://drive.google.com/file/d/1VZ7JBnyRJXf6Zc_skV-g60gOt8x2a0Ck/view?usp=drive_link",
-                    "commentator": "محمد جمال",
-                    "url": "https://example.com/live1"
-                },
-                {
-                    "channel": "الجزائرية 6 (HD)",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TV6_Alg%C3%A9rie_logo.svg/512px-TV6_Alg%C3%A9rie_logo.svg.png",
-                    "commentator": "محمد جمال",
-                    "url": "https://example.com/live1"
-                }
+                {"channel": "beIN Sports MAX 1", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png", "commentator": "عصام الشوالي", "url": "link1"},
+                {"channel": "beIN 4K", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png", "commentator": "خليل البلوشي", "url": "link2"}
             ]
         },
         {
-            "date": "2026-03-16",
-            "league": "الدوري السعودي",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a2/Saudi_Professional_League_Logo.svg/512px-Saudi_Professional_League_Logo.svg.png",
-            "teamA": "الهلال",
-            "teamB": "النصر",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/03/Al-Hilal_Logo.svg/1024px-Al-Hilal_Logo.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a4/Al_Nassr_FC_logo.svg/1024px-Al_Nassr_FC_logo.svg.png",
-            "score": "vs",
-            "time": "21:00",
-            "status": "finished",
+            "date": "2026-03-18", "league": "الدوري الإسباني", "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/512px-LaLiga_logo_2023.svg.png",
+            "teamA": "ريال مدريد", "teamB": "إشبيلية",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/56/Real_Madrid_CF.svg/1024px-Real_Madrid_CF.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/3/3b/Sevilla_FC_logo.svg/512px-Sevilla_FC_logo.svg.png",
+            "score": "3-0", "time": "20:00", "status": "finished",
+            "broadcasts": [{"channel": "beIN Sports 1", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png", "commentator": "حفيظ دراجي", "url": "link"}]
+        },
+        {
+            "date": "2026-03-18", "league": "الدوري الفرنسي", "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/6/6d/Ligue_1_Uber_Eats_logo.svg/512px-Ligue_1_Uber_Eats_logo.svg.png",
+            "teamA": "باريس سان جيرمان", "teamB": "مارسيليا",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1024px-Paris_Saint-Germain_F.C..svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a5/Olympique_de_Marseille_logo.svg/512px-Olympique_de_Marseille_logo.svg.png",
+            "score": "2-2", "time": "19:00", "status": "finished",
+            "broadcasts": [{"channel": "beIN Sports 2", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png", "commentator": "جواد بدة", "url": "link"}]
+        },
+        {
+            "date": "2026-03-18", "league": "الدوري السعودي", "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a2/Saudi_Professional_League_Logo.svg/512px-Saudi_Professional_League_Logo.svg.png",
+            "teamA": "الهلال", "teamB": "الاتحاد",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/03/Al-Hilal_Logo.svg/1024px-Al-Hilal_Logo.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/b/b3/Ittihad_FC_logo.svg/512px-Ittihad_FC_logo.svg.png",
+            "score": "1-0", "time": "18:00", "status": "finished",
+            "broadcasts": [{"channel": "SSC Sports 1", "channel_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/45/SSC_Logo.svg/512px-SSC_Logo.svg.png", "commentator": "فهد العتيبي", "url": "link"}]
+        },
+        {
+            "date": "2026-03-18", "league": "الرابطة الجزائرية المحترفة", "league_logo": "https://drive.google.com/file/d/1VZ7JBnyRJXf6Zc_skV-g60gOt8x2a0Ck/view?usp=drive_link",
+            "teamA": "مولودية الجزائر", "teamB": "شباب بلوزداد",
+            "logoA": "https://drive.google.com/file/d/16v-OGpDgfqj13hiWR3aUAu67ARur_2ZE/view?usp=drive_link", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/e/e0/CR_Belouizdad_logo.svg/512px-CR_Belouizdad_logo.svg.png",
+            "score": "1-1", "time": "17:00", "status": "finished",
+            "broadcasts": [{"channel": "الجزائرية 6 (HD)", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TV6_Alg%C3%A9rie_logo.svg/512px-TV6_Alg%C3%A9rie_logo.svg.png", "commentator": "محمد جمال", "url": "link"}]
+        },
+
+        {
+            "date": "2026-03-19", "league": "كأس العالم", "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/ab/FIFA_World_Cup_logo.svg/512px-FIFA_World_Cup_logo.svg.png",
+            "teamA": "فرنسا", "teamB": "ألمانيا",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/8/87/Equipe_de_France_de_football_logo_2018.svg/512px-Equipe_de_France_de_football_logo_2018.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/DFB_Logo_1990s.svg/512px-DFB_Logo_1990s.svg.png",
+            "score": "0-0", "time": "22:00", "status": "live", "minute": "65",
             "broadcasts": [
-                {
-                    "channel": "SSC Sports 1 HD",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/45/SSC_Logo.svg/512px-SSC_Logo.svg.png",
-                    "commentator": "فهد العتيبي",
-                    "url": "https://example.com/live1"
-                }
+                {"channel": "beIN Sports MAX 2", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png", "commentator": "حفيظ دراجي", "url": "link1"},
+                {"channel": "الكأس Extra 1", "channel_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/05/Al_Kass_logo.svg/512px-Al_Kass_logo.svg.png", "commentator": "أحمد الطيب", "url": "link2"}
             ]
         },
         {
-            "date": "2026-03-16",
-            "league": "الدوري الإسباني",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/512px-LaLiga_logo_2023.svg.png",
-            "teamA": "ريال مدريد",
-            "teamB": "برشلونة",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/56/Real_Madrid_CF.svg/1024px-Real_Madrid_CF.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/47/FC_Barcelona_%28logo%29.svg/1024px-FC_Barcelona_%28logo%29.svg.png",
-            "score": "vs",
-            "time": "22:00",
-            "status": "finished",
+            "date": "2026-03-19", "league": "الدوري الإسباني", "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/512px-LaLiga_logo_2023.svg.png",
+            "teamA": "برشلونة", "teamB": "أتلتيكو مدريد",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/47/FC_Barcelona_%28logo%29.svg/1024px-FC_Barcelona_%28logo%29.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/c/c1/Atletico_Madrid_logo.svg/1024px-Atletico_Madrid_logo.svg.png",
+            "score": "vs", "time": "20:00", "status": "live", "minute": "15",
+            "broadcasts": [{"channel": "beIN Sports 1", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png", "commentator": "علي محمد علي", "url": "link"}]
+        },
+        {
+            "date": "2026-03-19", "league": "الدوري الفرنسي", "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/6/6d/Ligue_1_Uber_Eats_logo.svg/512px-Ligue_1_Uber_Eats_logo.svg.png",
+            "teamA": "ليون", "teamB": "موناكو",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/c/c6/Olympique_Lyonnais.svg/512px-Olympique_Lyonnais.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/b/ba/AS_Monaco_FC.svg/512px-AS_Monaco_FC.svg.png",
+            "score": "vs", "time": "19:00", "status": "timed",
+            "broadcasts": [{"channel": "beIN Sports 4", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png", "commentator": "عامر الخوذيري", "url": "link"}]
+        },
+        {
+            "date": "2026-03-19", "league": "الدوري السعودي", "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a2/Saudi_Professional_League_Logo.svg/512px-Saudi_Professional_League_Logo.svg.png",
+            "teamA": "النصر", "teamB": "الأهلي",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a4/Al_Nassr_FC_logo.svg/1024px-Al_Nassr_FC_logo.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a8/Al-Ahli_Saudi_FC_logo.svg/512px-Al-Ahli_Saudi_FC_logo.svg.png",
+            "score": "vs", "time": "18:00", "status": "timed",
+            "broadcasts": [{"channel": "SSC Sports Extra", "channel_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/45/SSC_Logo.svg/512px-SSC_Logo.svg.png", "commentator": "عيسى الحربين", "url": "link"}]
+        },
+        {
+            "date": "2026-03-19", "league": "الرابطة الجزائرية المحترفة", "league_logo": "https://drive.google.com/file/d/1VZ7JBnyRJXf6Zc_skV-g60gOt8x2a0Ck/view?usp=drive_link",
+            "teamA": "وفاق سطيف", "teamB": "اتحاد العاصمة",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/52/ES_S%C3%A9tif_logo.svg/512px-ES_S%C3%A9tif_logo.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/9/9d/USM_Alger_logo.svg/1024px-USM_Alger_logo.svg.png",
+            "score": "vs", "time": "17:00", "status": "timed",
+            "broadcasts": [{"channel": "القناة الأولى", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/TV1_Alg%C3%A9rie_logo.svg/512px-TV1_Alg%C3%A9rie_logo.svg.png", "commentator": "بدون معلق", "url": "link"}]
+        },
+
+        {
+            "date": "2026-03-20", "league": "كأس العالم", "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/ab/FIFA_World_Cup_logo.svg/512px-FIFA_World_Cup_logo.svg.png",
+            "teamA": "إسبانيا", "teamB": "إيطاليا",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/3/31/Spain_National_Football_Team_badge.svg/512px-Spain_National_Football_Team_badge.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/5b/FIGC_logo.svg/512px-FIGC_logo.svg.png",
+            "score": "vs", "time": "22:00", "status": "timed",
             "broadcasts": [
-                {
-                    "channel": "beIN Sports 1",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
-                    "commentator": "حفيظ دراجي",
-                    "url": "https://example.com/liga1"
-                }
+                {"channel": "beIN Sports MAX 1", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png", "commentator": "عصام الشوالي", "url": "link1"},
+                {"channel": "beIN Sports MAX 3", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png", "commentator": "رؤوف خليف", "url": "link2"}
             ]
         },
         {
-            "date": "2026-03-16",
-            "league": "الدوري المصري",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/5a/Egyptian_Premier_League_Logo_2021.svg/512px-Egyptian_Premier_League_Logo_2021.svg.png",
-            "teamA": "الأهلي",
-            "teamB": "الزمالك",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/af/Al_Ahly_SC_logo.svg/1024px-Al_Ahly_SC_logo.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/04/ZamalekSC.png/1024px-ZamalekSC.png",
-            "score": "vs",
-            "time": "19:30",
-            "status": "finished",
-            "broadcasts": [
-                {
-                    "channel": "OnTime Sports 1",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/5e/OnTime_Sports_logo.svg/512px-OnTime_Sports_logo.svg.png",
-                    "commentator": "مدحت شلبي",
-                    "url": "https://example.com/egypt1"
-                }
-            ]
+            "date": "2026-03-20", "league": "الدوري الإسباني", "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/512px-LaLiga_logo_2023.svg.png",
+            "teamA": "فالنسيا", "teamB": "فياريال",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/c/ce/Valencia_Cf_Logo_original.svg/512px-Valencia_Cf_Logo_original.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/7/70/Villarreal_CF_logo.svg/512px-Villarreal_CF_logo.svg.png",
+            "score": "vs", "time": "20:00", "status": "timed",
+            "broadcasts": [{"channel": "beIN Sports 3", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png", "commentator": "أحمد البلوشي", "url": "link"}]
         },
         {
-            "date": "2026-03-17",
-            "league": "دوري أبطال أوروبا",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/b/bf/UEFA_Champions_League_logo_2012.svg/512px-UEFA_Champions_League_logo_2012.svg.png",
-            "teamA": "بايرن ميونخ",
-            "teamB": "باريس سان جيرمان",
-            "logoA": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/1024px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1024px-Paris_Saint-Germain_F.C..svg.png",
-            "score": "vs",
-            "time": "04:00",
-            "status": "timed",
-            "broadcasts": [
-                {
-                    "channel": "beIN Sports 1",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
-                    "commentator": "خليل البلوشي",
-                    "url": "https://example.com/live1"
-                }
-            ]
+            "date": "2026-03-20", "league": "الدوري الفرنسي", "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/6/6d/Ligue_1_Uber_Eats_logo.svg/512px-Ligue_1_Uber_Eats_logo.svg.png",
+            "teamA": "ليل", "teamB": "نيس",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/6/6f/LOSC_Lille_Crest.svg/512px-LOSC_Lille_Crest.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/3/30/OGC_Nice_logo.svg/512px-OGC_Nice_logo.svg.png",
+            "score": "vs", "time": "19:00", "status": "timed",
+            "broadcasts": [{"channel": "beIN Sports 4", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png", "commentator": "محمد بركات", "url": "link"}]
         },
         {
-            "date": "2026-03-17",
-            "league": "دوري أبطال أوروبا",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/b/bf/UEFA_Champions_League_logo_2012.svg/512px-UEFA_Champions_League_logo_2012.svg.png",
-            "teamA": "مانشستر سيتي",
-            "teamB": "إنتر ميلان",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/e/eb/Manchester_City_FC_badge.svg/1024px-Manchester_City_FC_badge.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/05/FC_Internazionale_Milano_2021.svg/1024px-FC_Internazionale_Milano_2021.svg.png",
-            "score": "vs",
-            "time": "02:00",
-            "status": "timed",
-            "broadcasts": [
-                {
-                    "channel": "beIN Sports 2",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
-                    "commentator": "عصام الشوالي",
-                    "url": "https://example.com/live1"
-                }
-            ]
+            "date": "2026-03-20", "league": "الدوري السعودي", "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/a2/Saudi_Professional_League_Logo.svg/512px-Saudi_Professional_League_Logo.svg.png",
+            "teamA": "الشباب", "teamB": "التعاون",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/b/b5/Al_Shabab_FC_Logo.svg/512px-Al_Shabab_FC_Logo.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/b/b3/Al_Taawoun_FC_logo.svg/512px-Al_Taawoun_FC_logo.svg.png",
+            "score": "vs", "time": "18:00", "status": "timed",
+            "broadcasts": [{"channel": "SSC Sports 2", "channel_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/45/SSC_Logo.svg/512px-SSC_Logo.svg.png", "commentator": "عبدالله الحربي", "url": "link"}]
         },
         {
-            "date": "2026-03-17",
-            "league": "الدوري الإنجليزي",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/f/f2/Premier_League_Logo.svg/512px-Premier_League_Logo.svg.png",
-            "teamA": "ليفربول",
-            "teamB": "مانشستر يونايتد",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/0/0c/Liverpool_FC.svg/1024px-Liverpool_FC.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/7/7a/Manchester_United_FC_crest.svg/1024px-Manchester_United_FC_crest.svg.png",
-            "score": "vs",
-            "time": "00:30",
-            "status": "timed",
-            "broadcasts": [
-                {
-                    "channel": "beIN Sports Premium 1",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
-                    "commentator": "حسن العيدروس",
-                    "url": "https://example.com/live"
-                }
-            ]
-        },
-        {
-            "date": "2026-03-17",
-            "league": "البطولة المغربية",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/ar/thumb/8/8b/Botola_Pro_logo.png/512px-Botola_Pro_logo.png",
-            "teamA": "الرجاء الرياضي",
-            "teamB": "الوداد الرياضي",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/4/41/Raja_Casablanca_logo.svg/1024px-Raja_Casablanca_logo.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/a/ad/Wydad_Athletic_Club_logo.svg/1024px-Wydad_Athletic_Club_logo.svg.png",
-            "score": "vs",
-            "time": "17:30",
-            "status": "timed",
-            "broadcasts": [
-                {
-                    "channel": "الرياضية المغربية",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Arryadia_TV_logo.svg/512px-Arryadia_TV_logo.svg.png",
-                    "commentator": "هشام فرج",
-                    "url": "https://example.com/live1"
-                }
-            ]
-        },
-        {
-            "date": "2026-03-18",
-            "league": "الدوري الإسباني",
-            "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/512px-LaLiga_logo_2023.svg.png",
-            "teamA": "أتلتيكو مدريد",
-            "teamB": "ريال بيتيس",
-            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/c/c1/Atletico_Madrid_logo.svg/1024px-Atletico_Madrid_logo.svg.png",
-            "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/1/13/Real_betis_logo.svg/1024px-Real_betis_logo.svg.png",
-            "score": "vs",
-            "time": "04:00",
-            "status": "timed",
-            "broadcasts": [
-                {
-                    "channel": "beIN Sports 3",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
-                    "commentator": "حفيظ دراجي",
-                    "url": "https://example.com/live"
-                },
-                {
-                    "channel": "beIN Sports 3",
-                    "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BeIN_Sports_logo.svg/512px-BeIN_Sports_logo.svg.png",
-                    "commentator": "حفيظ دراجي",
-                    "url": "https://example.com/live"
-                }
-            ]
-        },
-        {
-            "date": "2026-03-18",
-            "league": "الدوري الألماني",
-            "league_logo": "https://raw.githubusercontent.com/ATHEERAPP/API/main/logos/england/burnley.png",
-            "teamA": "بوروسيا دورتموند",
-            "teamB": "باير ليفركوزن",
-            "logoA": "https://raw.githubusercontent.com/ATHEERAPP/API/main/logos/england/burnley.png",
-            "logoB": "https://raw.githubusercontent.com/ATHEERAPP/API/main/logos/england/burnley.png",
-            "score": "vs",
-            "time": "03:00",
-            "status": "timed",
-            "broadcasts": [
-                {
-                    "channel": "beIN Sports 5",
-                    "channel_logo": "https://raw.githubusercontent.com/ATHEERAPP/API/main/logos/england/burnley.png",
-                    "commentator": "علي محمد علي",
-                    "url": "https://example.com/live"
-                }
-            ]
+            "date": "2026-03-20", "league": "الرابطة الجزائرية المحترفة", "league_logo": "https://drive.google.com/file/d/1VZ7JBnyRJXf6Zc_skV-g60gOt8x2a0Ck/view?usp=drive_link",
+            "teamA": "شبيبة القبائل", "teamB": "شباب قسنطينة",
+            "logoA": "https://upload.wikimedia.org/wikipedia/ar/thumb/5/53/JS_Kabylie_logo.svg/512px-JS_Kabylie_logo.svg.png", "logoB": "https://upload.wikimedia.org/wikipedia/ar/thumb/6/65/CS_Constantine_Logo.svg/512px-CS_Constantine_Logo.svg.png",
+            "score": "vs", "time": "17:00", "status": "timed",
+            "broadcasts": [{"channel": "الشبابية 6", "channel_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/TV6_Alg%C3%A9rie_logo.svg/512px-TV6_Alg%C3%A9rie_logo.svg.png", "commentator": "محلي", "url": "link"}]
         }
     ]
 }
